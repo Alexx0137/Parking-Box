@@ -1,0 +1,89 @@
+
+.bg-login-image{
+    background: url("../img/llave.png");
+    background-position: center;
+    background-size: cover;
+    border: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fc7d1c;
+    align-items: center;
+    padding: 20px;
+    position: initial;
+    width: 100%;
+    height: 80px;
+
+}
+
+#btnOne{
+    background-color:#ffee00;
+    color:navy;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:#ffee00;
+}
+
+
+#BTNENTRAR{
+    background-color: #ffee00;
+}
+
+#btn1{
+    width: 30%;
+    background-color:#ffee00;
+    font-size: 30px;
+}
+#btn2{
+    width: 30%;
+    background-color:#ffee00;
+    font-size: 30px;
+}
+#btn3{
+    width: 30%;
+    background-color:#ffee00;
+    font-size: 30px;
+}
+
+#BTHOME{
+    width: 10%;
+    background-color: #ffee00;
+    position: absolute;
+    left: 80%;
+}
+
+#BTREPORTES{
+     background-color: #ffee00;
+     position: absolute;
+   left:70%;
+    }
+.container{
+    width: 60%;
+}
+
+#section1{
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#tablas-reportes th{
+    font-size: 20px;
+    padding: 15px;
+}
+
+#tablas-reportes td{
+    padding: 15px;
+}

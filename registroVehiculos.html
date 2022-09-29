@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" type="image/png" href="img/icon.png"/>
+        <title>ParkingBox</title>
+    </head>
+    <body>
+        <header>
+        <h2>Registro de Vehiculo</h2>
+        <a href="home.html" class="btn d-block mt-2 rounded-0 shadow" id="BTHOME">Home</a>
+        </header>
+        <div class="form-container mt-5">
+            <form class="w-50 mx-auto" id="entryForm">            
+                <div class="form-group">
+
+                    <label for="owner">Propietario del Vehiculo:</label>
+                    <input type="text" class="form-control rounded-0 shadow-sm" id="owner" placeholder="Dijite el Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="car">Módelo del Vehiculo:</label>
+                    <input type="text" class="form-control rounded-0 shadow-sm" id="car" placeholder="Marca:">
+                </div>
+                <div class="form-group">
+                    <label for="licensePlate">Placa:</label>
+                    <input type="text" class="form-control rounded-0 shadow-sm" id="licensePlate" placeholder="Dijite la placa">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="entryDate">Fecha de Ingreso:</label>
+                        <input type="date" class="form-control rounded-0 shadow-sm" id="entryDate">
+                    </div>
+                    <div class="col-6">
+                        <label for="exitDate">Fecha de Salida:</label>
+                        <input type="date" class="form-control rounded-0 shadow-sm" id="exitDate">
+                    </div>
+                </div>
+                <button type="submit" class="btn mx-auto d-block mt-5 rounded-0 shadow" id="btnOne">Agregar Vehiculo</button>
+            </form>
+        </div>
+        
+
+        <script src="./JS/bootstrap.min.js"></script>
+        <script src="./JS/core.js"></script>
+
+    </body>
+</html>
